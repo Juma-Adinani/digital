@@ -1,0 +1,17 @@
+php artisan make:migration create_roles_table --create=roles
+php artisan make:migration create_faculties_table --create=faculties
+php artisan make:migration create_departments_table --create=departments
+php artisan make:migration create_programmes_table --create=programmes
+php artisan make:migration create_education_levels_table --create=education_levels
+php artisan make:migration create_students_table --create=students
+php artisan make:migration create_class_supervisors_table --create=class_supervisors
+php artisan make:migration create_dean_faculties_table --create=dean_faculties
+php artisan make:migration create_reason_types_table --create=reason_types
+php artisan make:migration create_reasons_for_leave_table --create=reasons_for_leave
+php artisan make:migration create_session_types_table --create=session_types
+php artisan make:migration create_away_sessions_table --create=away_sessions
+php artisan make:migration create_student_leaves_table --create=student_leaves
+php artisan make:migration create_supervisor_recommendations_table --create=supervisor_recommendations
+php artisan make:migration create_dof_recommendations_table --create=dof_recommendations
+php artisan make:migration create_dos_recommendations_table --create=dos_recommendations
+php artisan make:migration create_student_leave_reports_table --create=student_leave_reports
